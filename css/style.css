@@ -77,6 +77,10 @@ a {
   object-fit: contain;
 }
 
+.logo__title {
+  font-weight: 700;
+}
+
 .nav__list {
   display: flex;
 }
@@ -92,6 +96,10 @@ a {
 
 .nav__item:last-child {
   margin-right: 0;
+}
+
+.tel {
+  font-weight: 700;
 }
 
 .cart {
@@ -156,6 +164,7 @@ a {
 .hero__left {
   flex: 0 0 100%;
   position: relative;
+  margin-right: 15px;
 }
 .hero__container {
   display: flex;
@@ -227,6 +236,7 @@ a {
   -moz-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
+  margin-left: 15px;
 }
 
 .hero__img {
